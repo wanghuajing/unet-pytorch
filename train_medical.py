@@ -108,7 +108,7 @@ if __name__ == "__main__":
     #   权值文件的下载请看README
     #   权值和主干特征提取网络一定要对应
     #-------------------------------------------#
-    model_path = r"model_data/unet_voc.pth"
+    model_path = r"model_data/unet_medical.pth"
     print('Loading weights into state dict...')
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model_dict = model.state_dict()
